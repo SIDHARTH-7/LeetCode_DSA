@@ -8,6 +8,10 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
+// error because of missing class, this is just a solution function
+
+
 class Solution {
 public:
     ListNode* mergeNodes(ListNode* head) {
