@@ -8,7 +8,7 @@ public:
             int sum=0;
             for(int j=0;j<n;j++)
             {
-                if(j!=i && boxes[j]=='1')
+                if(j!=i && boxes[j]=='1') //loop
                     sum+=abs(j-i);
             }
             arr.push_back(sum);
